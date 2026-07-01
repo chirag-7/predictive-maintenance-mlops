@@ -15,7 +15,7 @@ A full-stack ML system that **predicts equipment failures before they occur**, b
 
 ---
 
-## 🎯 Key Achievements
+## Key Achievements
 
 * **91% peak accuracy** across multiple equipment types
 * **<100ms prediction latency** for real-time inference
@@ -26,14 +26,14 @@ A full-stack ML system that **predicts equipment failures before they occur**, b
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 Predictive maintenance enables manufacturers to **preempt costly machine breakdowns**, improving operational efficiency and reducing downtime.
 This system ingests **sensor data** (temperature, torque, speed, tool wear), trains ML models, and serves predictions via a **scalable API**, ready for production.
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 **Machine Learning & Data:** scikit-learn, pandas, numpy, SMOTE
 **API & Validation:** FastAPI, Pydantic
@@ -45,7 +45,7 @@ This system ingests **sensor data** (temperature, torque, speed, tool wear), tra
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 Data → ETL → Model Training (MLflow) → Model Registry → API (FastAPI) 
@@ -60,7 +60,7 @@ Data → ETL → Model Training (MLflow) → Model Registry → API (FastAPI)
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Capture](https://github.com/user-attachments/assets/b5ea1ab5-03d2-44e6-8820-187a19caeaef)
 
@@ -76,7 +76,7 @@ Data → ETL → Model Training (MLflow) → Model Registry → API (FastAPI)
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model               | Accuracy  | Precision | Recall | F1-Score |
 | ------------------- | --------- | --------- | ------ | -------- |
@@ -95,7 +95,7 @@ Data → ETL → Model Training (MLflow) → Model Registry → API (FastAPI)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **Clone & Setup**
 
@@ -131,7 +131,7 @@ docker-compose up -d --build
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * **Advanced feature engineering:** rolling statistics, lag features
 * **Ensemble/stacking models** for higher accuracy
